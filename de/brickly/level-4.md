@@ -10,9 +10,9 @@ Außerdem kannst du jetzt eine Gruppe von Befehlen zu einer Funktion zusammenbau
 * `stoppe Motor <M1>`: stoppt den ausgewählten Motor.  
 * `Motor <M1> hat gestoppt`: dieser Bedingungsbaustein wird wahr, wenn der Motor angehalten hat, weil die angegebene Entfernung erreicht wurde.  
 * `kopple Motoren <M1> und <M2>`: zwei gekoppelte Motoren laufen gleichzeitig und mit gleicher Geschwindigkeit. Damit beide Motoren wirklich synchron laufen und auch zur gleichen Zeit ein Stopp-Signal geben, solltest Du bei beiden Motoren die gleiche Entfernung einstellen. Die Motoren können aber in unterschiedliche Richtung drehen: dann dreht sich der Fahrroboter.  
-* `fahre <vorwärts> <25> cm`: wie [hier](/level-1#fahre)  
-* `fahre <vorwärts> <solange>`: wie [hier](/level-2#fahresolange)  
-* `drehe <rechts> <90>`: wie [hier](/level-3#drehegrad)    
+* `fahre <vorwärts> <25> cm`: wie [hier](/de/brickly/level-1.md#fahre)  
+* `fahre <vorwärts> <solange>`: wie [hier](/de/brickly/level-2.md#fahresolange)  
+* `drehe <rechts> <90>`: wie [hier](/de/brickly/level-3.md#drehegrad)    
 
 ## Neu in "Schleifen"       
 * `<die Schleife abbrechen>`: mit diesem Baustein kannst du den Durchlauf durch eine Schleife abbrechen. Das Programm springt dann sofort zu dem ersten Baustein nach der Schleife. Du kannst diesen Baustein nach einer Bedingung in einer Schleife einbauen, um z.B. in einer Zählschleife im Notfall abzubrechen. Du kannst auch auswählen *sofort mit dem nächsten Schleifendurchlauf fortfahren*, wenn in einer Schleife einige Befehle unter bestimmten Bedingungen nicht ausgeführt werden sollen. **Wichtig**: beide Bausteine funktionieren nicht bei der "Wiederhole"-Schleife (die ohne "solange", "bis" oder "10 mal"). Die ist eine Endlosschleife, die nur mit einem Drücken auf "Stopp" abgebrochen werden kann.    

@@ -1,5 +1,9 @@
 # Zweiter Erfahrungsgrad "Junior"    
-Als "Junior" hast du mehr Bausteine zur Verfügung. Damit die Auswahl übersichtlich bleibt, sind die Bausteine jetzt in Gruppen aufgeteilt. Es gibt jetzt einen Mülleimer, in den du Bausteine, die du nicht mehr haben willst, schieben kannst. Außerdem kannst du rechts unten die Geschwindigkeit auswählen, mit der der TXT das Programm abarbeiten soll: von Schildkrötengang (ganz langsam) bis zu Hasengang (ganz schnell).  
+Als "Junior" hast du mehr Bausteine zur Verfügung. Damit die Auswahl übersichtlich bleibt, sind die Bausteine jetzt in Gruppen aufgeteilt.
+
+![Gruppen](/de/brickly/gruppen.png)
+
+Es gibt jetzt einen Mülleimer, in den du Bausteine, die du nicht mehr haben willst, schieben kannst. Außerdem kannst du rechts unten die Geschwindigkeit auswählen, mit der der TXT das Programm abarbeiten soll: von Schildkrötengang (ganz langsam) bis zu Hasengang (ganz schnell).  
 Neue Bausteine in "Junior" beschäftigen sich mit Bedingungen und Logik. Eine Bedingung ist entweder *wahr* oder *unwahr*. Es gibt für diese Bedingungen beim Programmieren kein "vielleicht" oder "ich weiß nicht". Eine Bedingung in Brickly ist z.B. `Eingang <I1> ist an`. Der Eingang ist an, dann ist die Bedingung wahr, oder aus, dann ist die Bedingung unwahr.   Bedingungsbausteine kannst du an verschiedenen Stellen einsetzen, z.B bei `wiederhole <solange>`.  
 
 ## Bausteine "Spezial"    
@@ -13,11 +17,23 @@ Neue Bausteine in "Junior" beschäftigen sich mit Bedingungen und Logik. Eine Be
 * `schalte Ausgang <O1>` und `ein`: s. [hier](/de/brickly/level-1.md#schalteAusgang)  
 * `fahre <vorwärts> <25> cm`: s. [hier](/de/brickly/level-1.md#fahre)  
 * `drehe <rechts> <halb> herum`: s. [hier](/de/brickly/level-1.md#drehe)  
-* `fahre <vorwärts> <solange>`<a name="fahresolange"></a>: Mit diesem Baustein kannst du den Fahrroboter solange *vorwärts* oder *rückwärts* fahren lassen, wie ein Zustand dauert, also die angegebene Bedingung wahr ist. Als Zustand kannst du den `Eingang <I1> ist an`-Baustein nehmen, den du rechts an den `fahre <vorwärts> <solange>`-Baustein anbaust. Du kannst an den Eingang I1 einen Taster anschließen, und wenn du den gedrückt hälst, fährt mit diesem Befehl dein Roboter vorwärts. Statt *solange* kannst du auch *bis* auswählen. Damit kannst du einen Hinderniserkennungsroboter bauen, der solange vorwärts fährt, bis ein Hindernis den Taster an dem ausgewählten Eingang drückt.   
+* `fahre <vorwärts> <solange>`<a name="fahresolange"></a>: Mit diesem Baustein kannst du den Fahrroboter solange *vorwärts* oder *rückwärts* fahren lassen, wie ein Zustand dauert, also die angegebene Bedingung wahr ist. Als Zustand kannst du den `Eingang <I1> ist an`-Baustein nehmen, den du rechts an den `fahre <vorwärts> <solange>`-Baustein anbaust. Du kannst an den Eingang I1 einen Taster anschließen, und wenn du den gedrückt hälst, fährt mit diesem Befehl dein Roboter vorwärts. 
+
+![fahre vorwärts solange Eingang I1 ist an](/de/brickly/solange.png)
+
+Statt *solange* kannst du auch *bis* auswählen. Damit kannst du einen Hinderniserkennungsroboter bauen, der solange vorwärts fährt, bis ein Hindernis den Taster an dem ausgewählten Eingang drückt.   
 
 ## Bausteine "Logik"    
-* `falls <> mache `: Nach *falls* kommt eine Bedingung, und in den Bauch des Bausteins nach *mache* kommt ein Befehl oder eine Befehlsblock. Dieser Befehl wird einmal ausgeführt, falls die Bedingung wahr ist. Wenn du auf das Zahnrad links oben in diesem Baustein drückst, kannst du den Baustein noch erweitern. Es öffnet sich ein Kasten, der auf der linken Seite noch zwei Bausteine enthält. Wenn du einen der Bausteine an den 'falls'-Baustein auf der rechten Seite anbaust, erhälst du einen erweiterten 'falls'-Baustein. Wenn du mit dem Zusammenbau fertig bist, drückst du wieder auf das Zahnrad und der Kasten verschwindet. Nach *sonst falls* kannst du noch eine Bedingung und dann wieder einen Befehl einsetzen. Nach *sonst* kommt dann der Befehl, den der TXT ausführen soll, wenn alle anderen Bedingungen in diesem Baustein unwahr sind.     
-* `<> <und> <>`: Hier kannst du zwei Bedingungs-Bausteine miteinander zu einer neuen Bedingung verknüpfen. Mit *und* müssen beide Bedingungen wahr sein, damit der Baustein den Wert *wahr* hat. Mit *oder* muss mindestens eine Bedingung wahr sein. Wenn beide Bedingungen unwahr sind, hat der Baustein auch den Wert *unwahr*. Diesen Baustein kannst du immer dort einsetzen, wo eine Bedingung gebraucht wird.  
+* `falls <> mache `: Nach *falls* kommt eine Bedingung, und in den Bauch des Bausteins nach *mache* kommt ein Befehl oder eine Befehlsblock. Dieser Befehl wird einmal ausgeführt, falls die Bedingung wahr ist.    
+Wenn du auf das Zahnrad links oben in diesem Baustein drückst, kannst du den Baustein noch erweitern. Es öffnet sich ein Kasten, der auf der linken Seite noch zwei Bausteine enthält. Wenn du einen der Bausteine an den 'falls'-Baustein auf der rechten Seite anbaust, erhälst du einen erweiterten 'falls'-Baustein. Wenn du mit dem Zusammenbau fertig bist, drückst du wieder auf das Zahnrad und der Kasten verschwindet. Nach *sonst falls* kannst du noch eine Bedingung und dann wieder einen Befehl einsetzen. Nach *sonst* kommt dann der Befehl, den der TXT ausführen soll, wenn alle anderen Bedingungen in diesem Baustein unwahr sind.     
+
+![wenn sonst falls](/de/brickly/sonstfalls.png)
+
+* `<> <und> <>`: Hier kannst du zwei Bedingungs-Bausteine miteinander zu einer neuen Bedingung verknüpfen. Mit *und* müssen beide Bedingungen wahr sein, damit der Baustein den Wert *wahr* hat. 
+
+![und](/de/brickly/und.png)
+
+Mit *oder* muss mindestens eine Bedingung wahr sein. Wenn beide Bedingungen unwahr sind, hat der Baustein auch den Wert *unwahr*. Diesen Baustein kannst du immer dort einsetzen, wo eine Bedingung gebraucht wird.  
 * `nicht`: diesen Baustein kannst du vor einen Bedingungs-Baustein einbauen, und er dreht diese Bedingung um: aus *wahr* wird *unwahr* und aus *unwahr* wird *wahr*.    
 
 ## Bausteine "Schleifen"    
@@ -35,7 +51,13 @@ Neue Bausteine in "Junior" beschäftigen sich mit Bedingungen und Logik. Eine Be
 * `gib aus "< >"`: wie [hier](/de/brickly/level-1.md#gibaus). Du kannst hier einen Text eingeben, oder einen Textbaustein oder einen Zahlenbaustein einbauen. Wenn du einen Bedingungsbaustein anbaust, wird "true" für *wahr* oder "false" für unwahr ausgegeben.     
 
 ## Neu im Kontextmenü
-* "Kommentar hinzufügen":  Hier kannst du einen Kommentar zu deinem Baustein oder dem Programm schreiben oder auch wieder löschen. Wenn du den Kommentar fertig geschrieben hast oder zum Lesen eines Kommentares, drückst du auf das kleine Fragezeichen.  
+* "Kommentar hinzufügen":  Hier kannst du einen Kommentar zu deinem Baustein oder dem Programm schreiben oder auch wieder löschen. Wenn du den Kommentar fertig geschrieben hast oder zum Lesen eines Kommentares, drückst du auf das kleine Fragezeichen.
+
+![Kommentar](/de/brickly/kommentar.png)
+  
 * "Baustein zusammenfalten": Damit wird ein Baustein zusammengefaltet und platzsparender dargestellt. Du kannst ihn auch wieder entfalten.   
+
+![Zusammengefalteter Baustein](/de/brickly/gefaltet.png)
+
 * "Baustein deaktivieren": deaktiviert den Baustein, so dass er nicht mehr im Programm verwendet wird. Aktivieren macht das wieder rückgängig.    
 

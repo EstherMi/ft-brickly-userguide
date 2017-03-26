@@ -12,12 +12,7 @@ Außerdem kannst du jetzt verschiedene Programme mit unterschiedlichen Namen spe
 ![Neues Programm anlegen](/de/brickly/speichern.png)
 
 ## Neue Bausteine bei "Eingänge"    
-
-
 * `<Spannung (mV)> an Eingang <E1>`: mit dem Eingangsbaustein kannst du einen der Eingänge an dem TXT abfragen. Was dir der Eingang liefert und welche physikalische Größe (*Spannung*, *Schalterzustand*, *Widerstand* oder *Distanz*) du auswählen musst, hängt von dem verwendeten Sensor ab. Du kannst den Eingangsbaustein als Zahlenbaustein verwenden. Bei den Widerständen musst du einen Moment warten, bis sie ihren endgültigen Wert erreicht haben.    
-
-![Eingang auslesen](/de/brickly/eingang.png)
-
   * Farbsensor: liefert eine elektrische *Spannung*, je nach Farbe unterschiedliche Werte.  
   * IR-Spursensor: wird an zwei Eingänge angeschlossen, liefert an beiden Eingängen einen *Schalterzustand*. Der IR-Spursensor befindet sich über einer einer schwarzen Spur, wenn beide Eingänge den Wert 1 für *ein* liefern.  
   * Taster: liefert einen *Schalterzustand*, entweder 0 für *aus* oder 1 für *ein* (umgekehrt, wenn die Anschlüsse 1 und 2 am Taster verwendet werden).  
@@ -25,6 +20,9 @@ Außerdem kannst du jetzt verschiedene Programme mit unterschiedlichen Namen spe
   * Fotowiderstand: liefert einen *Widerstand*, der mit zunehmender Helligkeit sinkt.
   * Ultraschallsensor: misst die *Distanz*, also den Abstand zum nächsten Hindernis.  
   * Wärmesensor: liefert einen *Widerstand*, der mit steigender Temperatur sinkt.  
+
+![Eingang auslesen](/de/brickly/eingang.png)
+  
 * `Temperatur <°C>`: diesen Baustein kannst Du verwenden, um aus dem Widerstandswert des Wärmesensor eine Temperatur zu berechnen. Dazu baust du ihn vor den Eingangsbaustein, bei dem du *Widerstand* auswählst. Du kannst die Einheit wählen: °C (Grad Celsius, die in Europa verwendete Einheit), °F (Fahrenheit, wird in den USA verwendet) und K (Kelvin, gibt die absolute Temperatur an).  
 
 ## Neue Bausteine bei "Ausgänge"    
@@ -43,7 +41,7 @@ Außerdem kannst du jetzt verschiedene Programme mit unterschiedlichen Namen spe
 ## Neuer Baustein bei "Schleifen"    
 * `zähle <i> von <1> bis <10> in Schritten von <1>: mache`: Das ist eine Zählschleife. Die Anzahl der Durchläufe, also wie oft die Befehle im Bauch des Bausteins ausgeführt werden, steht fest. Beim ersten Durchlauf ist der Zähler *i* 1, wird dann um 1 erhöht, usw. bis *i* 10 ist. Mit diesen Zahlen wird diese Schleife also 10 mal ausgeführt. Der Zähler (hier *i*) ist im Bauch des Bausteins bekannt. Du findest einen Zahlenbaustein dafür bei den Variablen. Damit kannst du z.B. zuerst nur 1 Sekunde warten, dann 2 usw..    
 
-![Zählschleife](/de/brickly/zählschleife.png)
+![Zählschleife](/de/brickly/zaehlschleife.png)
 
 ## Neuer Baustein bei "Mathe"      
 * `ganzzahlige Zufallszahl zwischen <1> und <100>`: hier denkt sich der TXT eine ganze Zahl zwischen 1 und 100 aus. Wenn du als Grenzen 1 und 6 wählst, hast du eine Art Würfel.     

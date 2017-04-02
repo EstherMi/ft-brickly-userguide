@@ -1,4 +1,5 @@
 # Zweiter Erfahrungsgrad "Junior"    
+
 Als "Junior" hast du mehr Bausteine zur Verfügung. Damit die Auswahl übersichtlich bleibt, sind die Bausteine jetzt in Gruppen aufgeteilt.
 
 ![Gruppen](/de/brickly/gruppen.png)

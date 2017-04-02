@@ -1,4 +1,5 @@
 # Dritter Erfahrungsgrad "Fortgeschritten"    
+
 Für die Fortgeschrittenen gibt es neue Bausteine für die Nutzung der Eingänge, und du lernst Variablen kennen.   
 "Variablen sind Behälter im Speicher, die einen Namen haben und deren Inhalt sich während der Ausführung eines Programms ändern kann. Der Begriff der Variablen ist eines der wichtigsten Konzepte in Mathematik und Informatik. Mit der Verwendung von Variablen fängt das "wahre Programmieren" an." (Rüdeger Baumann)    
 Mit dieser Erklärung im Hinterkopf kannst du dir überlegen, wie du Variablen in deinem Programm nutzen kannst, z.B. um den Wert eines Eingangs abzuspeichern. Variablen sind auch nützlich, um an verschiedenen Stellen im Programm immer den gleichen Wert zu verwenden.  

@@ -1,6 +1,7 @@
 # Fünfter Erfahrungsgrad "Experte"    
+
 Dies ist der höchste Erfahrungsgrad für die Experten. Neu sind hier die Listen-Bausteine. Eine Liste ist eine durchnummerierte Reihe von Elementen. Über die Nummer kannst du auf jedes Element zugreifen. 
-![Liste](/de/brickly/list.png)  
+![Liste](list.png)  
 
 Die meisten Bausteine für Listen findest du in der neuen Gruppe "Listen", es gibt aber auch einen neuen Baustein unter "Schleifen" und einen bei "Mathe".      
 
@@ -11,9 +12,9 @@ Hier gibt es einige neue Bausteine für die Nutzung eines USB-Joysticks. Die Joy
 * `gleichzeitig`. Mit diesem Baustein kannst du Ausgänge gleichzeitig setzen, z.B. zwei Motoren gleichzeitig starten, ohne gekoppelte Encoder-Motoren zu verwenden. Der Baustein funktioniert nicht mit den Bausteinen aus der Untergruppe "Mobil" (da drehen zwei Motoren ohnehin gleichzeitig).     
 
 ## Neue Untergruppe in "Ausgänge": "Mobil"    
-* `fahre <vorwärts> <25> cm`: wie [hier](/de/brickly/level-1.md#fahre)  
-* `fahre <vorwärts> <solange>`: wie [hier](/de/brickly/level-2.md#fahresolange)  
-* `drehe <rechts> <90>`: wie [hier](/de/brickly/level-3.md#drehegrad)  
+* `fahre <vorwärts> <25> cm`: wie [hier](level-1.md#fahre)  
+* `fahre <vorwärts> <solange>`: wie [hier](level-2.md#fahresolange)  
+* `drehe <rechts> <90>`: wie [hier](level-3.md#drehegrad)  
 * `<90>°` und `<etwas> herum`: diese beiden Bausteine können an den `drehe`-Baustein angebaut werden, um den Drehwinkel einzustellen.    
 * `Mobilroboter-Konfiguration`: Wenn du einen anderen Fahrroboter als den aus dem TXT-Discovery-Set gebaut hast, kannst du mit diesem Baustein am Anfang deines Programms einstellen, an welchen Anschlüssen die Motoren angeschlossen sind, von welchem Typ sie sind, wie die Antriebsübersetzung (Motorachse zu Radachse) ist, wie groß der Raddurchmesser ist und wie der Abstand zwischen den Antriebsrädern ist. Mit der richtigen Konfiguration sollen die Befehle zum Fahren und Drehen auch für deinen selbstkonstruierten Fahrroboter funktionieren. Für das Discovery-Set wird dieser Baustein nicht benötigt.      
 
@@ -34,7 +35,7 @@ Hier gibt es einige neue Bausteine für die Nutzung eines USB-Joysticks. Die Joy
 * `Zufallszahl (0.0 - 1.0)`: liefert eine zufällige Gleitkommazahl zwischen 0.0 und 1.0.     
 
 ## Neu in "Text"    
-Hier findest du jetzt viele neue Bausteine, um Texte zu bearbeiten, Teile daraus zu finden usw.. Als "Experte" wirst du in dieser Gruppe finden, was du brauchst. Ein Baustein ist besonders nützlich: 
+Hier findest du jetzt viele neue Bausteine, um Texte zu bearbeiten, Teile daraus zu finden usw.. Als "Experte" wirst du in dieser Gruppe finden, was du brauchst. Ein Baustein ist besonders nützlich:
 * `gib aus in <> <"abc">`: gibt den angegebenen Text in der ausgewählten Farbe aus.    
 
 ## "Listen"    

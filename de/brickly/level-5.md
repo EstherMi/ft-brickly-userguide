@@ -1,7 +1,8 @@
 # Fünfter Erfahrungsgrad "Experte"    
 
-Dies ist der höchste Erfahrungsgrad für die Experten. Neu sind hier die Listen-Bausteine. Eine Liste ist eine durchnummerierte Reihe von Elementen. Über die Nummer kannst du auf jedes Element zugreifen. 
-![Liste](list.png)  
+Dies ist der höchste Erfahrungsgrad für die Experten. Neu sind hier die Listen-Bausteine. Eine Liste ist eine durchnummerierte Reihe von Elementen. Über die Nummer kannst du auf jedes Element zugreifen.    
+
+![Liste](list.png)    
 
 Die meisten Bausteine für Listen findest du in der neuen Gruppe "Listen", es gibt aber auch einen neuen Baustein unter "Schleifen" und einen bei "Mathe".      
 
@@ -39,7 +40,11 @@ Hier findest du jetzt viele neue Bausteine, um Texte zu bearbeiten, Teile daraus
 * `gib aus in <> <"abc">`: gibt den angegebenen Text in der ausgewählten Farbe aus.    
 
 ## "Listen"    
-Um eine Liste zu erzeugen, erstellst du am einfachsten zuerst eine Variable für die Liste (z.B. "MeineListe"). Dann erzeugst du eine Liste mit einem der folgenden Bausteine und weist ihn der Variable zu. Die Variable mit deiner Liste findest du unter "Variablen".  
+
+![Beispiel für Liste](MeineListe.png)
+    
+Um eine Liste zu erzeugen, erstellst du am einfachsten zuerst eine Variable für die Liste (z.B. "MeineListe"). Dann erzeugst du eine Liste mit einem der folgenden Bausteine und weist ihn der Variable zu. Die Variable mit deiner Liste findest du unter "Variablen".    
+
 * `erzeuge eine leere Liste`: erzeugt eine leere Liste.  
 * `erzeuge eine Liste mit: `: erzeugt eine Liste aus den angegeben Bausteinen. Durch Drücken auf das Zahnrad erhälst du wieder einen Kasten, mit dem du durch Hinzufügen oder Zurückschieben der Elementbausteine (*etwas*) mehr oder weniger Elementplätze in deiner Liste bereitstellen kannst. Wenn du die richtige Anzahl hast, drückst du wieder auf das Zahnrad. Um deine Liste zu füllen, baust du an die freien Plätze Wert-Bausteine an, z.B. Variablen, Zahlen oder Texte.  
 * `erzeuge eine Liste mit <5> mal dem Element <>`: erzeugt eine Liste mit der angegebenen Länge (hier 5), die an jeder Stelle das gleiche Element enthält.  

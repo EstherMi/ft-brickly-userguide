@@ -26,7 +26,7 @@ Statt *solange* kannst du auch *bis* auswählen. Damit kannst du einen Hindernis
 
 ## Bausteine "Logik"    
 * `falls <> mache `: Nach *falls* kommt eine Bedingung, und in den Bauch des Bausteins nach *mache* kommt ein Befehl oder eine Befehlsblock. Dieser Befehl wird einmal ausgeführt, falls die Bedingung wahr ist.    
-Wenn du auf das Zahnrad links oben in diesem Baustein drückst, kannst du den Baustein noch erweitern. Es öffnet sich ein Kasten, der auf der linken Seite noch zwei Bausteine enthält. Wenn du einen der Bausteine an den 'falls'-Baustein auf der rechten Seite anbaust, erhälst du einen erweiterten 'falls'-Baustein. Wenn du mit dem Zusammenbau fertig bist, drückst du wieder auf das Zahnrad und der Kasten verschwindet. Nach *sonst falls* kannst du noch eine Bedingung und dann wieder einen Befehl einsetzen. Nach *sonst* kommt dann der Befehl, den der TXT ausführen soll, wenn alle anderen Bedingungen in diesem Baustein unwahr sind.     
+Wenn du auf das Zahnrad links oben in diesem Baustein drückst, kannst du den Baustein noch erweitern. Es öffnet sich ein Kasten, der auf der linken Seite noch zwei Bausteine enthält. Wenn du einen der Bausteine an den 'falls'-Baustein auf der rechten Seite anbaust, erhälst du einen erweiterten 'falls'-Baustein. Wenn du mit dem Zusammenbau fertig bist, drückst du wieder auf das Zahnrad und der Kasten verschwindet. Nach *sonst falls* kannst du noch eine Bedingung und dann wieder einen Befehl einsetzen. Nach *sonst* kommt dann der Befehl, den der TXT ausführen soll, wenn alle anderen Bedingungen in diesem Baustein unwahr sind.
 
 ![wenn sonst falls](sonstfalls.png)
 
@@ -55,7 +55,7 @@ Mit *oder* muss mindestens eine Bedingung wahr sein. Wenn beide Bedingungen unwa
 * "Kommentar hinzufügen":  Hier kannst du einen Kommentar zu deinem Baustein oder dem Programm schreiben oder auch wieder löschen. Wenn du den Kommentar fertig geschrieben hast oder zum Lesen eines Kommentares, drückst du auf das kleine Fragezeichen.
 
 ![Kommentar](kommentar.png)
-  
+
 * "Baustein zusammenfalten": Damit wird ein Baustein zusammengefaltet und platzsparender dargestellt. Du kannst ihn auch wieder entfalten.   
 
 ![Zusammengefalteter Baustein](gefaltet.png)

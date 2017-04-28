@@ -6,7 +6,6 @@ Außerdem kannst du jetzt eine Gruppe von Befehlen zu einer Funktion zusammenbau
 ## "Ausgänge" - "Motoren"    
 
 ![Ansteuerung eines Encodermotors](encodermotor.png)
-    
 * `setze Motor <M1> <Geschwindigkeit> auf`: mit diesem Baustein kannst du den ausgewählten Motor  (M1, M2, M3 oder M4) genau ansteuern. Je nach ausgewählter Eigenschaft (*Geschwindigkeit*, *Richtung*, *Entfernung*, *Typ*) musst du noch einen der folgenden drei Bausteine anbauen. Für die *Entfernung* baust du noch einen Zahlenbaustein an. Die *Geschwindigkeit* musst du für jeden Motor auf jeden Fall angeben, sonst bewegt er sich nicht. Der *Geschwindigkeit*-Baustein startet den Motor. **Wichtig**: Wenn der Motor gestartet ist, läuft das Programm weiter. Wenn es am Ende angekommen ist, werden alle Motoren ausgeschaltet. Es kann daher sein, dass der Motor anhält, bevor er die angegebene Entfernung zurückgelegt hat. Du musst also deinem Motor Zeit geben, wenn er eine bestimmte Entfernung zurücklegen soll, z.B. in dem du einen `warte`-Baustein einbaust.  
 * `<links>`: gibt die *Richtung* an, in die sich der Motor drehen soll (*rechts* oder *links*).  
 * `<neuer Encodermotor (TXT)>`: entweder *neuer Encodermotor* oder *alter Encodermotor*. Der Typ des Encodermotors ist wichtig, wenn du die Entfernung angibst. Die beiden Motoren unterscheiden sich nämlich in der Anzahl der Impulse pro Umdrehung der Antriebswelle. Wenn du den *Typ* deines Motors richtig setzt, wird dieser Unterschied berücksichtigt.  
@@ -29,9 +28,11 @@ Außerdem kannst du jetzt eine Gruppe von Befehlen zu einer Funktion zusammenbau
 * `an <etwas> Text anhängen`: hängt an die Variable *etwas* oder eine andere ausgewählte Variable den Inhalt des angehängten Textbausteines an.     
 
 ## "Funktionen"    
-
+Eine Funktion ist eine Gruppe von Befehlen mit einem eigenen Namen.
+     
 ![Beispiel für Funktionen](funktionen.png)
     
+Du musste eine Funktion zuerst definieren und kannst sie dann verwenden.
 * `etwas tun`: Damit definierst du deine Funktion. Du legst den Baustein einfach auf der Arbeitsfläche ab. In den Bauch baust du die Befehlsbausteine, die deine Funktion ausführen soll. Statt *etwas tun* solltest du der Funktion einen sinnvollen Namen geben. Du kannst zusätzlich noch einen Text schreiben, der die Funktion beschreibt, wenn du auf das kleine Fragezeichen neben dem Namen drückst. Wenn du den Funktionsbaustein auf der Arbeitsfläche abgelegt hast, findest du in dieser Gruppe auch einen Baustein mit dem Namen deiner Funktion. Das ist der Funktionsaufruf. Diesen Baustein baust du in dein Programm ein. Damit wird deine Funktion aufgerufen, d.h. die Befehle im Bauch des Funktionsbausteins werden ausgeführt. Du kannst der Funktion auch einen oder mehrere Parameter hinzufügen. Das ist ein Wert, den das Programm der Funktion beim Aufruf übergibt und den du innerhalb der Funktion nutzen kannst. Dazu drückst du auf das kleine Zahnrad links oben in dem Funktionsbaustein und ziehst dann den Baustein *Variable* in den Bauch des Funktionsbausteins auf der rechten Seite des Kastens. Gib auch den Parametern sinnvolle Namen! Beim Aufruf musst du dann einen passenden Wertbaustein an den Aufruf anbauen.    
 * `etwas tun: gib zurück:` Diese Funktion kann nicht nur einfach Befehle ausführen, sondern auch einen Wert zurückgeben (z.B. den Messwert eines Sensors). Den Funktionsbaustein verwendest du dann beim Aufruf wie einen Wertbaustein. Auch dieser Funktion kannst du Parameter hinzufügen.  
 * `falls: gib zurück:`: Dieser Block darf nur innerhalb eines Funktionsblocks genutzt werden. Nach *falls* kommt eine Bedingung. Wenn diese Bedingung *wahr* ist, beendet sich die Funktion sofort und gibt den angegebenen Wert zurück. Damit kannst du z.B. eine Fehlermeldung zurückgeben, wenn etwas schief gelaufen ist.    

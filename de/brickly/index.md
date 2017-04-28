@@ -14,8 +14,7 @@ Zur Installation musst du den TXT mit der Community Firmware starten. Der einfac
 Du kannst Brickly auch als [Zip-Datei](https://github.com/ftCommunity/ftcommunity-apps/blob/master/packages/brickly.zip) vom GitHub-Repository der fischertechnik community herunterladen. Auf dem Web-Interface siehst du unten einen Bereich "App Upload". Hier wählst du die heruntergeladene Brickly-Zip-Datei aus und drückst dann auf den "Upload"-Knopf. Brickly erscheint nach der Installation in der Liste der installierten Apps.  
 
 ## Start im Web-Interface  
-Im Web-Interface kannst du Brickly jetzt auswählen.  
-
+Im Web-Interface kannst du Brickly jetzt mit diesem Symbol auswählen.  
 ![Brickly-Symbol](bricklysymbol.png)
 
 Auf der nächsten Seite kommst du mit "Open local application pages" auf die Seite von Brickly. Damit du mit Brickly programmieren kannst, muss im Browser die Ausführung von JavaScript möglich sein. Auf der Brickly-Seite kannst Du auch die Sprache auswählen, entweder Deutsch oder Englisch (mit den Flaggen-Symbolen rechts oben in der Ecke). Außerdem kannst du dein Brickly-Programm ausdrucken: wenn du auf das Drucker-Symbol rechts oben drückst, erhälst du ein Bild von deinem Programm, das du mit der Druck-Funktion deines Browsers drucken kannst.  

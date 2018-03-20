@@ -1,5 +1,5 @@
 # ft-brickly-userguide
 User guides for Fischertechnik community firmware apps.
-Currently for Brickly only. First draft. In German only.    
+Here, currently for Brickly only. First draft. In German only.    
 
-Anleitungen für Apps der Fischertechnik community firmware. Bis jetzt gibt es nur eine Anleitung für [Brickly](de/brickly/index.md). 
+Anleitungen für Apps der Fischertechnik community firmware. Bis jetzt gibt es hier nur eine Anleitung für [Brickly](de/brickly/index.md) auf Deutsch. 

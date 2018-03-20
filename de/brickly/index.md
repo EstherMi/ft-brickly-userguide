@@ -21,7 +21,7 @@ Auf der nächsten Seite kommst du mit "Open local application pages" auf die Sei
 
 ## Benutzung auf dem TXT-Touch-Screen  
 ![TXT: Brickly](TXT_Brickly.png)  
-Hier siehst du, wie Brickly auf dem TXT-Touch-Screen aussieht. Programmieren kannst du nur in dem Browser auf dem deinem PC oder Tablet. Auf dem TXT kannst du ein Programm auswählen (mit "Select..."). Wenn du auf "Run" drückst, startet das Programm. Wenn du Brickly auf dem TXT beenden willst, drückst du einfach auf das X rechts oben. Wenn du Brickly auf dem TXT beendet hast und das Browserfenster noch offen ist, kannst du durch Drücken auf "Verbinde" rechts im Browser Brickly wieder starten.    
+Hier siehst du, wie Brickly auf dem TXT-Touch-Screen aussieht. Programmieren kannst du nur im Browser auf deinem PC oder Tablet. Auf dem TXT kannst du ein Programm auswählen (mit "Select..."). Wenn du auf "Run" drückst, startet das Programm. Wenn du Brickly auf dem TXT beenden willst, drückst du einfach auf das X rechts oben. Wenn du Brickly auf dem TXT beendet hast und das Browserfenster noch offen ist, kannst du durch Drücken auf "Verbinde" rechts im Browser Brickly wieder starten.    
 
 ## Arbeiten mit Brickly  
 In den folgenden Seiten kannst Du für jeden Erfahrungsgrad nachlesen, welche Bausteine dir zur Verfügung stehen. Grundlegende Erklärungen gibt es auf der Seite ["Anfänger"](level-1.md).  

@@ -4,13 +4,20 @@ Dies ist der höchste Erfahrungsgrad für die Experten. Neu sind hier die Listen
 
 ![Liste](list.png)    
 
-Die meisten Bausteine für Listen findest du in der neuen Gruppe "Listen", es gibt aber auch einen neuen Baustein unter "Schleifen" und einen bei "Mathe".      
+Die meisten Bausteine für Listen findest du in der neuen Gruppe "Listen", es gibt aber auch einen neuen Baustein unter "Schleifen" und einen bei "Mathe". Außerdem kannst du jetzt mehrere Aktionen  mit unterschiedlichen Zeitabläufen gleichzeitig ablaufen lassen (s. [Spezial](#nebenbei).     
+
+## Neu in "Spezial"
+* `Nebenbei`<a name="nebenbei"></a>:: Wenn Du zwei Teilprogramme gleichzeitig ablaufen lassen möchtest, brauchst Du dafür zwei "Threads" (wörtlich: "Fäden"). Dies erreichst du mit dem Baustein `Nebenbei`. Das Programm, das parallel zu dem anderen Programm ablaufen soll, baust du an diesen zweiten Startbaustein an.
+
+![Beispiel für Threads](brickly_threads.png)   
+
+Jetzt können beide Teilprogramme unabhängig voneinander ablaufen.
 
 ## Neue Bausteine in "Eingänge"    
 Hier gibt es einige neue Bausteine für die Nutzung eines USB-Joysticks. Die Joysticks/Gamepads werden per USB am TXT angeschlossen - am Standard-USB-Port. Zur Zeit funktionieren leider nur einige Typen, z.B. ein Speedlink Competition Pro USB Joystick.    
 
 ## Neu in "Ausgänge"    
-* `gleichzeitig`. Mit diesem Baustein kannst du Ausgänge gleichzeitig setzen, z.B. zwei Motoren gleichzeitig starten, ohne gekoppelte Encoder-Motoren zu verwenden. Der Baustein funktioniert nicht mit den Bausteinen aus der Untergruppe "Mobil" (da drehen zwei Motoren ohnehin gleichzeitig).     
+* `gleichzeitig`: Mit diesem Baustein kannst du Ausgänge gleichzeitig setzen, z.B. zwei Motoren gleichzeitig starten, ohne gekoppelte Encoder-Motoren zu verwenden. Der Baustein funktioniert nicht mit den Bausteinen aus der Untergruppe "Mobil" (da drehen zwei Motoren ohnehin gleichzeitig).     
 
 ## Neue Untergruppe in "Ausgänge": "Mobil"    
 * `fahre <vorwärts> <25> cm`: wie [hier](level-1.md#fahre)  

@@ -4,7 +4,7 @@ Oben links auf der Startseite von Brickly siehst du fünf kleine Kreise mit Zahl
   
 ![Startseite von Brickly](Seite.png)  
 
-Auf der linken Seite siehst Du einige Bausteine, aus denen du dein Programm zusammenbauen kannst. In der Mitte ist deine Arbeitsfläche. Ganz rechts siehst du einen blauen Kasten. Hier wird der Text erscheinen, der von Brickly ausgegeben wird, aber auch Fehlermeldungen, wenn etwas ganz schief laufen sollte.   
+Auf der linken Seite siehst du einige Bausteine, aus denen du dein Programm zusammenbauen kannst. In der Mitte ist deine Arbeitsfläche. Ganz rechts siehst du einen blauen Kasten. Hier wird der Text erscheinen, der von Brickly ausgegeben wird, aber auch Fehlermeldungen, wenn etwas ganz schief laufen sollte.   
 
 ![Baubeginn](buildstart.png)
 In der Arbeitsfläche siehst du schon einen ersten Baustein. Mit diesem Anfangsbaustein beginnt dein Programm. Ziehe mit der Maus einen Baustein von der linken Seite hierher. Du siehst, dass der Nippel auf der Unterseite des Anfangsbausteins gelb aufleuchtet. Jetzt kannst du deinen Baustein hier ablegen.   
@@ -12,7 +12,7 @@ In der Arbeitsfläche siehst du schon einen ersten Baustein. Mit diesem Anfangsb
 Bei manchen Bausteinen kannst du etwas auswählen. Dazu drückst du auf das kleine blaue Dreieck in dem Auswahlfeld. Wenn du eine Reihe von Bausteinen untereinander zusammengefügt hast, kannst du auf "Los" (über dem blauen Kasten auf der rechten Seite) drücken. Damit wird dein Programm auf den TXT hochgeladen und dort gleich gestartet. Die Befehle auf den Bausteinen werden jetzt von oben nach unten nacheinander abgearbeitet. Der Baustein, an dem der TXT gerade arbeitet, leuchtet auf. Wenn das Programm fertig ist, werden alle Ausgänge wieder zurückgesetzt, also z.B. alle Motoren gestoppt.  
 
 ## Die Bausteine im Erfahrungsgrad "Anfänger"  
-* `gib aus <Text>`<a name="gibaus"></a>Statt *Text* kannst du hier über die Tastatur an deinem Rechner einen anderen Text eingeben. Drücke dazu in das Feld und schreibe deinen Text, z.B. "Hallo TXT". Beende die Eingabe mit der Eingabetaste auf deiner Tastatur oder indem du (mit der Maus) irgendwohin drückst. Wenn das Programm läuft, erscheint der Text in dem blauen Kasten auf der rechten Seite und auf dem Touchscreen deines TXT.   
+* `gib aus <Text>`<a name="gibaus"></a>: Statt *Text* kannst du hier über die Tastatur an deinem Rechner einen anderen Text eingeben. Drücke dazu in das Feld und schreibe deinen Text, z.B. "Hallo TXT". Beende die Eingabe mit der Eingabetaste auf deiner Tastatur oder indem du (mit der Maus) irgendwohin drückst. Wenn das Programm läuft, erscheint der Text in dem blauen Kasten auf der rechten Seite und auf dem Touchscreen deines TXT.   
 ![Auswahlbox](selectionbox.png)
 * `schalte Ausgang <O1> <aus>`<a name="schalteAusgang"></a>: Mit diesem Baustein kannst du direkt einen Ausgang am TXT ansteuern, um z.B. eine Lampe leuchten zu lassen. Mit *ein* schaltest du den Ausgang ein, mit *aus* wieder aus. Achte darauf, den richtigen Ausgang auszuwählen, also den, an dem du auf dem TXT deine Lampe oder deinen Motor angeschlossen hast. Denk daran, dass am Programmende alle Ausgänge wieder ausgeschaltet werden und verwende einen *warte*-Baustein, wenn es nötig ist. 
 * `warte <1> Sekunden`<a name="warte"></a>: der TXT macht 1 Sekunde lang nicht mit dem Programm weiter. Du kannst hier auch eine andere Zahl eingeben. Wähle aber keine zu lange Zeit, sonst wird dir langweilig.    

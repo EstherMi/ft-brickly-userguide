@@ -1,3 +1,9 @@
+---
+nav-title: Erster Erfahrungsgrad "Anfänger"
+nav-pos: 1
+---
+
+
 # Erster Erfahrungsgrad "Anfänger"<a name="Erster"></a>  
 
 Oben links auf der Startseite von Brickly siehst du fünf kleine Kreise mit Zahlen. Hier wählst du die 1 aus. Du kommst damit zu dem Erfahrungsgrad "Anfänger".  

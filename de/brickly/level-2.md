@@ -1,3 +1,8 @@
+---
+nav-title: Zweiter Erfahrungsgrad "Junior"
+nav-pos: 2
+---
+
 # Zweiter Erfahrungsgrad "Junior"    
 
 ![Gruppen](gruppen.png)

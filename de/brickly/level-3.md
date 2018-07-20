@@ -1,3 +1,9 @@
+---
+nav-title: Dritter Erfahrungsgrad "Fortgeschritten"
+nav-pos: 3
+---
+
+
 # Dritter Erfahrungsgrad "Fortgeschritten"    
 
 Für die Fortgeschrittenen gibt es neue Bausteine für die Nutzung der Eingänge, und du lernst Variablen kennen.   

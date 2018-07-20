@@ -1,3 +1,9 @@
+---
+nav-title: Fünfter Erfahrungsgrad "Experte"
+nav-pos: 5
+---
+
+
 # Fünfter Erfahrungsgrad "Experte"    
 
 Dies ist der höchste Erfahrungsgrad für die Experten. Neu sind hier die Listen-Bausteine. Eine Liste ist eine durchnummerierte Reihe von Elementen. Über die Nummer kannst du auf jedes Element zugreifen.    

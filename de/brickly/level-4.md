@@ -1,3 +1,9 @@
+---
+nav-title: Vierter Erfahrungsgrad "Senior" 
+nav-pos: 4
+---
+
+
 # Vierter Erfahrungsgrad "Senior"    
 
 In diesem Erfahrungsgrad gibt es viele neue Bausteine für die Nutzung von Encoder-Motoren. Alle Motorbausteine findest du jetzt in einer eigenen Untergruppe "Motoren" unterhalb von "Ausgänge".    

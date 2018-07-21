@@ -24,13 +24,13 @@ Zur Installation eines Plugins, muss der TXT verbunden sein. Wenn du bei der Ins
 
 Über dieses Plugin hat Brickly Zugriff auf die Ein- und Ausgänge eines [ftDuino](http://ftduino.de), der über USB mit dem TXT oder einen [TX-PI](https://github.com/harbaum/tx-pi) verbunden ist..
 
-Auf dem ftduino muss der Sketch [ftduino_direct](https://github.com/PeterDHabermehl/ftduino_direct) laufen.
+Brickly kommuniziert über ftduino_direct mit dem ftDuino. Auf dem ftduino muss der daher Sketch [ftduino_direct](https://github.com/PeterDHabermehl/ftduino_direct) laufen. Das heißt, dass du (z.B. mit der App "ftDuinIO") zunächst mal das ftduino_direct-Binary auf den ftDuino flashen musst. 
 
 ![ftduino plugin](ftduino.png)
 
 ### file IO - fileio.xml
 
-Dieses Plugin liefert Blöcke zum Lesen und Schreiben von einfachen Files. Du findest sie in der Kategorie "Spezial"
+Dieses Plugin liefert Blöcke zum Lesen und Schreiben von einfachen Files auf einem USB-Stick oder auf der SD-Karte. Du findest sie in der Kategorie "Spezial",
 
 
 ![fileio plugin](fileio.png)
